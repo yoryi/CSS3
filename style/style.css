@@ -7,6 +7,16 @@ div.scrollmenu {
 div.menu {
     width: '100%'; 
     height: 4.5rem;
+    background-color: white;
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
+}
+
+body{
+    background-color: #DBECFF; 
+    padding-left: 1rem; 
+    padding-right: 1rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 div.logo{
@@ -26,5 +36,53 @@ div.scrollmenu a {
 }
 
 div.scrollmenu a:hover {
-    background-color: #FEAD00;
+    background-color: #00456D;
+    border-radius: 10px;
+    color: white;
+}
+
+div.contenido-autor{
+    padding-top: 5%; 
+    text-align: center; 
+    background-color: white; 
+    height: 25rem;
+}
+
+div.contenido-conceptos{
+    background-color: white; 
+    height: 110rem; 
+    margin-top: -1.5rem; 
+    padding-left: 2rem; 
+    padding-right: 2rem; 
+    padding-top: 2.9rem;
+}
+
+div.contenido-recursos{
+    background-color: white; 
+    height: 35rem; 
+    margin-top: 0rem; 
+    padding-left: 1rem; 
+    padding-right: 1rem;
+}
+
+div.contenido-index{
+    padding-left: 2%; 
+    padding-right: 2%; 
+    padding-top: 8rem; 
+    background-color: white; 
+    box-shadow: 0px 0px 0px #D0D0D0;
+}
+
+div.banner{
+    height: 12rem; 
+    text-align: center; 
+    border-color: gray; 
+    border-style: solid; 
+    border-bottom-right-radius: 17px; 
+    border-bottom-left-radius: 17px; 
+    background-color: #00456D; 
+    border-top-width: 0px; 
+    border-left-width: 0rem; 
+    border-right-width: 0rem; 
+    border-bottom-width: 0rem;
 }
